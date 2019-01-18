@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Assignment-4</h2>
+    <div class="container">
+    <form name="RegForm">
+	  <fieldset>
+      <legend>Employee Registration</legend>
+        First name: <input type="text" id ="fname" name="fname" placeholder="enter first name"><br><br>
+        Last name: <input type="text" id="lname" name="lname" placeholder="enter last name"><br><br>
+        E-mail: <input type="text" name="email"  placeholder="Enter your email" id = "email" ><br><br>
+        Phone Number: <input type="text" id="phone" name="phone" placeholder="enter the phone number" > <br><br>
+        Gender: <input type="radio" name="gender" id="male"value="male" checked > Male 
+                <input type="radio" name="gender" id = "female" value="female" > Female <br><br>
+        Age: <input type = "text" name="age" placeholder="enter your age" id="age" ><br><br>
+        <p id = "check">Skills<br>
+          <input id="c1" type="checkbox" name="Java" value="Java" checked>Java<br>
+          <input id="c2" type="checkbox" name="CPP" value="CPP">C++<br>
+          <input id="c3" type="checkbox" name="Ruby" value="Ruby" >Ruby<br> 
+          <input id="c4" type="checkbox" name="JS" value="JS" >JS<br> 
+          <input id="c5" type="checkbox" name="Python" value="Python" >Python<br>
+          <input id="c6" type="text" name="Other" placeholder="Any Other">
+        </p><br><br>
+        Address:<br><input type="text" name="Address" placeholder="enter your permanent Address" id="paddress" ><br><input type="text" name="    Address" placeholder="enter your temporary Address" id="laddress"><br>
+          <input type="button" value="submit" onclick="validate()" >
+      </fieldset>
+    </form> 
+    </div>
+    <table width="100%">
+    <caption>Employee Information</caption>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>E-mail</th>
+        <th>Phone Number</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Skills</th>
+        <th>Permanent Address</th>
+        <th>Local Address</th>
+      </tr>
+    </table>
+   <script type="text/javascript" src = 'script.js'>
+    </script>
+  </body>
+</html>
+
+
+
